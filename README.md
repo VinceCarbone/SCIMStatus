@@ -3,6 +3,7 @@ This script will quickly identify any Enterprise Apps configured for SCIM Provis
 A few requirements
 1. An App Registration granted the Microsoft Graph "Directory.Read.All" API permission (application, not delegated)
 2. You'll also need a certificate uploaded to the app registration, and that same certificate installed under the user profile of whoever is going to run the script
+3. The Microsoft.Graph.Applications PowerShell module needs to be installed https://learn.microsoft.com/en-us/powershell/module/microsoft.graph.applications/?view=graph-powershell-1.0
 
 You'd run this by simply calling the script like so, obviously subsituting your own information
 
